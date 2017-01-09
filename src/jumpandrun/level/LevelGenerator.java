@@ -1,6 +1,10 @@
-package JumpAndRun;
+package jumpandrun.level;
 import java.awt.image.BufferedImage;
 import java.util.Vector;
+
+import jumpandrun.entity.PictureLoader;
+import jumpandrun.entity.Solid;
+import jumpandrun.gui.GamePanel;
 
 public class LevelGenerator
 {

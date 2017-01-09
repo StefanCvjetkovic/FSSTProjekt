@@ -1,4 +1,4 @@
-package JumpAndRun.test;
+package jumpandrun.test;
 
 import static org.junit.Assert.*;
 

@@ -1,6 +1,8 @@
-package JumpAndRun;
+package jumpandrun.entity;
 import java.awt.Graphics;
 import java.awt.image.BufferedImage;
+
+import jumpandrun.gui.GamePanel;
 
 public class Solid extends Sprite
 {

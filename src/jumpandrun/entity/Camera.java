@@ -1,4 +1,4 @@
-package JumpAndRun;
+package jumpandrun.entity;
 public class Camera
 {
 	float x;

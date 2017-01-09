@@ -1,4 +1,4 @@
-package JumpAndRun;
+package jumpandrun.entity;
 import java.awt.image.BufferedImage;
 import java.io.IOException;
 import java.net.URL;
