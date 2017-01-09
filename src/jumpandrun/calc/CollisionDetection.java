@@ -36,12 +36,23 @@ public class CollisionDetection
 	    Point2D coord = new Point2D.Double(x, y);
 	    Point2D dest = new Point2D.Double(x + speedX, y + speedY);
 	    Line2D raytrace = new Line2D.Double(coord, dest);
-	    if (raytrace.intersects(rect))
-	    {
-
+	    Point2D intersection = intersectLineRect(raytrace, rect);
+	    if(intersection != null){
+		if(c != null){
+		    //TODO check if c is nearer, if yes do nothing, else compute collision
+		}
+		else{
+		    //TODO compute Collsion
+		}
 	    }
 	}
 
 	return c;
+    }
+
+    private Point2D intersectLineRect(Line2D line, Rectangle2D rect)
+    {
+	//TODO
+	return null;
     }
 }
